@@ -134,7 +134,7 @@ PRG_S=Slab
 unamestr=`uname`
 if [ "$unamestr" == 'Darwin' ]; then
   if $auto_eplus_dir; then
-    WEA_P="/EnergyPlus-8-6-0/WeatherData"
+    WEA_P="/Applications/EnergyPlus-8-6-0/WeatherData"
   else
     WEA_P="$ENERGYPLUS_DIR/WeatherData"
   fi
